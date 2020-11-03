@@ -1,4 +1,4 @@
-
+FROM openjdk:8-jre-alpine
 RUN mkdir -p /opt/app
 RUN mkdir /app
 COPY studentapp-2.5-SNAPSHOT.war /app.war
